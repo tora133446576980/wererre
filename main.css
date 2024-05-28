@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0;
+}
+
+.langue {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.nav-lang {
+    display: flex;
+    gap: 14px;
+}
+
+header {
+    border-bottom: 1px solid #DEDBDB;
+    background-color: white;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.square {
+    width: 650px;
+    height: 786px;
+    background-color: white;
+    border: 1px solid #DEDBDB;
+    border-radius: 25px;
+    margin: 46px auto 0;
+    padding: 65px;
+
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imzo {
+    font-size: 24px;
+    color: #F0400F;
+}
+
+h1 {
+    color: #0E0D5D;
+    margin-top: 120px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.tanlash {
+    margin: 79px 0 auto;
+    background-color: #F5F5F5;
+    padding: 6px;
+    text-align: center;
+}
+
+.student {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 28px;
+    border: none;
+    padding: 9px;
+}
+
+.parent {
+    border: none;
+    font-size: 28px;
+}
+
+.login {
+    width: 533px;
+    height: 70px;
+    margin-top: 39px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500px;
+    background-color: #F5F5F5;
+}
+
+.qrcode {
+    color: grey;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.q {
+    margin-top: 31px;
+    padding: 17px;
+    background-color:  #F69E86;
+    border: none;
+    border-radius: 20px;
+    margin-left: 430px;
+    color: white;
+}
